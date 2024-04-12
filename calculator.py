@@ -1,4 +1,4 @@
-class calculator:
+class Calculator:
     def addition(self,a,b):
         result = a+b 
         return result
@@ -13,5 +13,3 @@ class calculator:
         return result
     
 
-calculator = calculator()
-print(calculator.addition(2,3))
